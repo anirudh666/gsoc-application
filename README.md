@@ -56,7 +56,9 @@ Using gcc I compiled the program and executed it, using the commands :
 - Make all the changes required 
 	
 -Create a new remote for the upstream repository with the command
-	`$ git remote add upstream https://github.com/kedark3/demo `
+
+	`$ git push origin new_branch`
+	
 ("upstream repo" refers to the original repository you created your fork from).
 
 - Create the pull up request that pops up in your github repository.
