@@ -36,11 +36,11 @@ Using gcc I compiled the program and executed it, using the commands :
     
 -Running the code in binary.
 
-    `$ qemu-arm-static hello_world_cross_comp hello_world_cross_comp`.
+    `$ qemu-arm-static hello_world_cross_comp hello_world_cross_comp`
     
-  or use .
+  or use 
   
-    `$ qemu-aarch64 -L /usr/aarch64-linux-gnu/ [path-to-binary]`.
+    `$ qemu-aarch64 -L /usr/aarch64-linux-gnu/ [path-to-binary]`
     
  ![Hello_world_cross_comp.c executed](./pics/Hello_world_cross_comp_exec.png)
 
@@ -48,15 +48,20 @@ Using gcc I compiled the program and executed it, using the commands :
 
 - Fork the original repository of jadonk from [here](https://github.com/jadonk/gsoc-application).
 
-- Cloning it in ubuntu `$ git clone <your repo link>.`
+- Cloning it in ubuntu 
+
+	`$ git clone <your repo link>.`
 
 - Create your new branch using command 
+
 	`$ git checkout -b new_branch`
 
 - Make all the changes required 
 	
--Create a new remote for the upstream repository with the command
-	`$ git remote add upstream https://github.com/kedark3/demo `
+- Create a new remote for the upstream repository with the command
+
+	`$ git push origin new_branch`
+	
 ("upstream repo" refers to the original repository you created your fork from).
 
 - Create the pull up request that pops up in your github repository.
@@ -70,6 +75,3 @@ Using gcc I compiled the program and executed it, using the commands :
 3. https://gist.github.com/luk6xff/9f8d2520530a823944355e59343eadc1
 4. https://www.suchprogramming.com/cross-compiling-c-code-for-arm/
 5. https://github.com/jadonk/gsoc-application/blob/master/ExampleEntryJasonKridner/README.md
-
-
-`
