@@ -55,7 +55,7 @@ Using gcc I compiled the program and executed it, using the commands :
 
 - Make all the changes required 
 	
--Create a new remote for the upstream repository with the command
+- Create a new remote for the upstream repository with the command
 	`$ git remote add upstream https://github.com/kedark3/demo `
 ("upstream repo" refers to the original repository you created your fork from).
 
@@ -70,6 +70,3 @@ Using gcc I compiled the program and executed it, using the commands :
 3. https://gist.github.com/luk6xff/9f8d2520530a823944355e59343eadc1
 4. https://www.suchprogramming.com/cross-compiling-c-code-for-arm/
 5. https://github.com/jadonk/gsoc-application/blob/master/ExampleEntryJasonKridner/README.md
-
-
-`
